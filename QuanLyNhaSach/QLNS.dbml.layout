@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="QLNS">
+  <DataContextMoniker Name="/QLNSDataContext" />
+  <nestedChildShapes>
+    <classShape Id="1c70a5e7-8ae3-4f9d-b75a-562e3178fc50" absoluteBounds="0.5, 1, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/QLNSDataContext/Category" />
+      <nestedChildShapes>
+        <elementListCompartment Id="95e9af36-3540-4474-a064-9c9be400c3ed" absoluteBounds="0.51500000000000012, 1.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="af81fa18-5129-499e-9cc4-eadac2ae2f23" absoluteBounds="0.75, 3.25, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/QLNSDataContext/Customer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b36f7e29-21ad-4402-85b9-647b11c72578" absoluteBounds="0.76500000000000012, 3.71, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3d5f6291-67b7-4bfa-8fd8-215bb8242876" absoluteBounds="3.75, 3.25, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/QLNSDataContext/Employee" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f93816be-7fd8-49f2-8a2f-acc8bde87082" absoluteBounds="3.765, 3.71, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2231063c-38e0-40e5-b102-0f248b891bf6" absoluteBounds="4.625, 0.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/QLNSDataContext/Product" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1d9e6732-4956-4323-a002-bacda20e94a0" absoluteBounds="4.64, 1.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 1.59699625651042); (4.625 : 1.59699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QLNSDataContext/Category/Category_Product" />
+      <nodes>
+        <classShapeMoniker Id="1c70a5e7-8ae3-4f9d-b75a-562e3178fc50" />
+        <classShapeMoniker Id="2231063c-38e0-40e5-b102-0f248b891bf6" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
